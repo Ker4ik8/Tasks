@@ -3,7 +3,6 @@ n = int(input())
 print("Введите числа в одну строку.")
 a = [int(i) for i in input().split()]
 a_list = list(a)
-b_list = list()
 b = 0
 for i in range(0, (n // 2) * 2, 2):
     b = a_list[i]
